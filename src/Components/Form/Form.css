@@ -1,0 +1,77 @@
+.Form__Container {
+  height: 80%;
+  width: 90%;
+  background-color: white;
+  color: black;
+  z-index: 3;
+  margin: auto;
+}
+.cancelButton{
+    border: none;
+    background-color: white;
+    color: red;
+    margin: 10px 0px ;
+}
+
+.my-table {
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+
+.my-table th,
+.my-table td {
+  border: 1px solid #ddd;
+  padding: 2px;
+  text-align: left;
+}
+
+.my-table th {
+  background-color: #f2f2f2;
+}
+
+.my-table td img {
+  height: 50px;
+  margin: 0 auto;
+  width: auto;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+}
+input {
+  height: 20px;
+  margin: 10px 50px;
+}
+.submitButton {
+  background-color: #ff3131;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  color: white;
+  padding: 6px;
+  margin: auto;
+  cursor: pointer;
+}
+.submitButton:hover {
+  transform: scale(1.1);
+  transition: 350ms all ease-in-out;
+}
+.successMessage {
+  color: rgb(13, 191, 13);
+}
+
+@media (max-width: 700px) {
+  .Form {
+    height: 50%;
+  }
+  input {
+    width: 100%;
+    margin: 10px 5px;
+  }
+  .submitButton {
+    width: 160px;
+  }
+}

@@ -1,0 +1,14 @@
+.Navbar{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    width: 100vw;
+    top: 0%;
+}
